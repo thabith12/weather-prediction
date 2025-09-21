@@ -27,7 +27,7 @@ def load_and_clean_data():
         # Load the dataset
         df = pd.read_csv('1000 datasets.csv')
         
-        # Data Cleaning
+        # Data Cleaning process
         # Convert date column
         df['Formatted Date'] = pd.to_datetime(df['Formatted Date'], errors='coerce')
         
